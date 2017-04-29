@@ -4,6 +4,7 @@ function get_integer_interval_2(number_a, number_b) {
   //在这里写入代码
 
   var result = new Array();
+
   if (number_a < number_b) return increasing(number_a, number_b, result);
   if (number_a > number_b) return decrease(number_a, number_b, result);
   if (number_b == number_a) return isSame(number_a, number_b);
