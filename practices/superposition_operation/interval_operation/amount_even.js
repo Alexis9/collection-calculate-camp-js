@@ -1,8 +1,14 @@
 'use strict';
 
 function amount_even(collection) {
+  var result = 0;
 
-  //在这里写入代码
+  for (var index in collection) {
+    if (collection[index] % 2 == 0) result += collection[index];
+  }
+
+  return result;
 }
+
 
 module.exports = amount_even;
