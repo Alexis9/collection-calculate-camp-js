@@ -1,0 +1,29 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "jasmine":true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+//    最大圈复杂度
+    "max-depth": [
+      "error",
+      4
+    ],
+    "max-statements": [
+      "error",
+      6
+    ],
+//    return 前面加空格
+    "newline-before-return":[
+      "error"
+    ],
+    "camelcase":[
+      "error"
+    ]
+  }
+}

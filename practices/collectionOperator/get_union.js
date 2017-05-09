@@ -18,4 +18,3 @@ function isExist(elementA, collection_b) {
   return true;
 }
 module.exports = get_union;
-
