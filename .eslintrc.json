@@ -14,10 +14,6 @@
       "error",
       4
     ],
-    "max-statements": [
-      "error",
-      6
-    ],
 //    return 前面加空格
     "newline-before-return":[
       "error"
